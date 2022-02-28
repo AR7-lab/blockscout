@@ -38,7 +38,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
   z-index: 9;
 
   @include media-breakpoint-between(lg, xl) {
-    height: 249px;
+  
   }
 
   @include media-breakpoint-down(sm) {
@@ -171,8 +171,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
 
 .dashboard-banner-network-plain-container {
   align-items: center;
-  align-self: flex-end;
-  background-color: $dashboard-banner-network-plain-container-background-color;
+  align-self: flex-end;  
   border-top-left-radius: 10px;
   display: flex;
   height: $dashboard-banner-network-plain-container-height;
@@ -203,8 +202,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
     width: 100%;
   }
 
-  &::after {
-    background-color: $dashboard-banner-network-plain-container-background-color;
+  &::after {   
     bottom: 0;
     content: "";
     display: block;

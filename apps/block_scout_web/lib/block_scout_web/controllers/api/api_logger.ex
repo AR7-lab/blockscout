@@ -1,6 +1,6 @@
-defmodule BlockScoutWeb.API.APILogger do
+defmodule APILogger do
   @moduledoc """
-  Logger for API endpoints usage
+  Logger of API ednpoins usage
   """
   require Logger
 
@@ -13,12 +13,6 @@ defmodule BlockScoutWeb.API.APILogger do
       end
 
     Logger.debug(endpoint,
-      fetcher: :api
-    )
-  end
-
-  def message(text) do
-    Logger.debug(text,
       fetcher: :api
     )
   end

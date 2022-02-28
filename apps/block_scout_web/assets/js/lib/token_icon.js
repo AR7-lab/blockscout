@@ -36,7 +36,6 @@ function appendTokenIcon ($tokenIconContainer, chainID, addressHash, foreignChai
           if ($tokenIconContainer) {
             const img = new Image(iconSize, iconSize)
             img.src = tokenIconURL
-            img.className = 'mr-1'
             $tokenIconContainer.append(img)
           }
         }

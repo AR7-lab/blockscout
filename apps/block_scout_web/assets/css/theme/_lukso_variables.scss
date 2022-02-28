@@ -1,8 +1,8 @@
 // general
-$primary: #1d3154;
-$secondary: #fdcec4;
-$tertiary: #a96c55;
-$additional-font: #a1ded1;
+$primary: #000000;
+$secondary: #595959;
+$tertiary: #595959;
+$additional-font: #000000;
 
 $tile-body-a-color: $tertiary;
 $tile-type-block-color: $tertiary;
@@ -10,9 +10,9 @@ $tile-type-progress-bar-color: $tertiary;
 a.tile-title { color: $tertiary !important; }
 
 // footer
-$footer-background-color: $primary;
-$footer-title-color: #fff;
-$footer-text-color: $secondary;
+$footer-background-color: #FFF;
+$footer-title-color: #000000;
+$footer-text-color: #000000;
 $footer-item-disc-color: $secondary;
 $footer-social-icon-color: $secondary;
 
@@ -21,17 +21,17 @@ $footer-social-icon-color: $secondary;
 }
 
 // dashboard
-$dashboard-line-color-price: $tertiary; // price left border
+$dashboard-line-color-price: #fff; // price left border
 
-$dashboard-banner-chart-legend-label-color: $primary;
-$dashboard-stats-item-label-color: $primary;
-$dashboard-banner-chart-legend-value-color: $primary; // chart labels
-$dashboard-stats-item-value-color: $primary; // stat values
+$dashboard-banner-chart-legend-label-color: #fff;
+$dashboard-stats-item-label-color: #fff;
+$dashboard-banner-chart-legend-value-color: #fff; // chart labels
+$dashboard-stats-item-value-color: #fff; // stat values
 
-$dashboard-stats-item-border-color: $primary; // stat border
+$dashboard-stats-item-border-color: #fff; // stat border
 $dashboard-banner-gradient-start: $secondary; // gradient begin
 $dashboard-banner-gradient-end: $secondary; // gradient end
-$dashboard-banner-network-plain-container-background-color: $secondary; // stats bg
+$dashboard-banner-network-plain-container-background-color: #fff; // stats bg
 
 // navigation
 $header-icon-border-color-hover: $primary; // top border on hover
@@ -50,12 +50,20 @@ $btn-address-card-icon-color: $primary; // btn address color
 $card-background-1: $primary;
 $card-tab-active: $primary;
 
-$dashboard-banner-network-stats-static-image: "/images/lukso_dashboard_image.png";
+$dashboard-banner-network-stats-static-image: "";
 
 // Custom home
 $dashboard-banner-network-plain-container-height: 150px;
 
 .layout-container {
+  .navbar.navbar-primary .form-control {
+		background-color: #000;
+		border-color: #000;
+		color: #fff;
+		&::placeholder {
+			color: #efefef;
+		}
+	}
   .dashboard-banner-container {
     height: auto !important;
   }

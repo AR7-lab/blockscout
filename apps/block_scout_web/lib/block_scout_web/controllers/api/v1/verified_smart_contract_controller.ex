@@ -1,7 +1,8 @@
 defmodule BlockScoutWeb.API.V1.VerifiedSmartContractController do
   use BlockScoutWeb, :controller
 
-  alias BlockScoutWeb.API.APILogger
+  require APILogger
+
   alias Explorer.Chain
   alias Explorer.Chain.Hash.Address
   alias Explorer.SmartContract.Solidity.Publisher

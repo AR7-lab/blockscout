@@ -491,9 +491,7 @@ defmodule BlockScoutWeb.Etherscan do
       """,
       "ContractName" => "Test",
       "CompilerVersion" => "v0.2.1-2016-01-30-91a6b35",
-      "OptimizationUsed" => "1",
-      "IsProxy" => "true",
-      "ImplementationAddress" => "0x000000000000000000000000000000000000000e"
+      "OptimizationUsed" => "1"
     }
   }
 
@@ -549,9 +547,7 @@ defmodule BlockScoutWeb.Etherscan do
       "ContractName" => "Test",
       "CompilerVersion" => "v0.2.1-2016-01-30-91a6b35",
       "OptimizationUsed" => "1",
-      "FileName" => "{sourcify path or empty}",
-      "IsProxy" => "true",
-      "ImplementationAddress" => "0x000000000000000000000000000000000000000e"
+      "FileName" => "{sourcify path or empty}"
     }
   }
 
